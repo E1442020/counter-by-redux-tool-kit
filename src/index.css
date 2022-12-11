@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(187, 186, 186);
+}
+ button{
+  display: block;
+  margin-bottom: 7px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+
+ }
+
+ h2{
+  color: rgb(113, 32, 46);
+ }
+ h3{
+  color: rgb(175, 98, 123);
+ }
+ button:hover{
+  opacity: .6;
+ }
+ .log{
+  background-color: rgb(113, 32, 46);
+  color: aliceblue;
+ }
